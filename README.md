@@ -9,13 +9,13 @@
 A plugin for [markdown-it](https://github.com/markdown-it/markdown-it) that turns:
 
 ```markdown
-@[Freddy Mercury](mention://user/48249279)
+@[Freddie Mercury](mention://user/48249279)
 ```
 
 into:
 
 ```html
-<span class="mention" data-type="user" data-id="48249279">Freddy Mercury</span>
+<span class="mention" data-type="user" data-id="48249279">Freddie Mercury</span>
 ```
 
 ## Installation
