@@ -1,0 +1,27 @@
+correctly parses a mention
+.
+some @[mention](mention://user/10)
+.
+<p>some <a class="mention" data-type="user" data-id="10">mention</a></p>
+.
+
+correctly parses a mention with no label
+.
+some @[](mention://user/10)
+.
+<p>some <a class="mention" data-type="user" data-id="10"></a></p>
+.
+
+doesn't interfere with links
+.
+some [link](http://google.com)
+.
+<p>some <a href="http://google.com">link</a></p>
+.
+
+doesn't interfere with images
+.
+some ![](https://google.com/image.jpg)
+.
+<p>some <img src="https://google.com/image.jpg" alt=""></p>
+.

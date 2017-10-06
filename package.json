@@ -1,0 +1,31 @@
+{
+  "name": "@quartzy/markdown-it-mentions",
+  "version": "0.1.0",
+  "description": "markdown-it plugin for mentions",
+  "main": "dist/index.js",
+  "author": "Tristan Pemble",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/jest": "^21.1.2",
+    "@types/markdown-it": "^0.0.4",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^21.2.1",
+    "markdown-it": "^8.4.0",
+    "markdown-it-testgen": "^0.1.4",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "url-parse": "^1.1.9"
+  }
+}
