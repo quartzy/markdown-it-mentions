@@ -27,4 +27,4 @@ function generate(filePath, md) {
 
 let md = new MarkdownIt({}).use(mentionPlugin, {});
 
-generate(path.join(__dirname, 'test/fixtures.txt'), md);
+generate(path.join(__dirname, '../test/fixtures.txt'), md);

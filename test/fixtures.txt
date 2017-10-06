@@ -2,14 +2,14 @@ correctly parses a mention
 .
 some @[mention](mention://user/10)
 .
-<p>some <a class="mention" data-type="user" data-id="10">mention</a></p>
+<p>some <span class="mention" data-type="user" data-id="10">mention</span></p>
 .
 
 correctly parses a mention with no label
 .
 some @[](mention://user/10)
 .
-<p>some <a class="mention" data-type="user" data-id="10"></a></p>
+<p>some <span class="mention" data-type="user" data-id="10"></span></p>
 .
 
 doesn't interfere with links
