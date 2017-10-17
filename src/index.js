@@ -14,7 +14,7 @@ export function parseUri(uri) {
 }
 
 export function parseMentions(state) {
-  const matcher = /(^|\s)@$/;
+  const matcher = /@$/;
 
   state.tokens.forEach(blockToken => {
     if (blockToken.type !== 'inline') return;

@@ -25,3 +25,10 @@ some ![](https://google.com/image.jpg)
 .
 <p>some <img src="https://google.com/image.jpg" alt=""></p>
 .
+
+parses mentions with no space before them
+.
+some@[part](mention://user/50) mention
+.
+<p>some<span class="mention" data-type="user" data-id="50">part</span> mention</p>
+.
